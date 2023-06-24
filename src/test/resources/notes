@@ -1,0 +1,16 @@
+RunWith
+CucumberOptions
+Given, When, Then, And, But
+Before, After
+--------------------------
+How do you maintain passwords/secrets?
+there is a Vault application.
+
+In the vault application, all employees have accounts
+and they have access to only those passwords that they are
+entitled to.
+
+
+
+
+
