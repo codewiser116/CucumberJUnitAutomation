@@ -8,9 +8,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
-public class Hooks {
+public class HooksTest {
 
-    final static Logger logger = Logger.getLogger(Hooks.class);
+    final static Logger logger = Logger.getLogger(HooksTest.class);
 
     @Before
     public static void beforeScenario(Scenario scenario){

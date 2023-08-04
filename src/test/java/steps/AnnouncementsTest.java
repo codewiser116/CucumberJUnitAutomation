@@ -11,14 +11,14 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class AnnouncementsSteps {
+public class AnnouncementsTest {
 
     WebDriver driver = Driver.getDriver();
 
     HomePage homePage = new HomePage();
     AnnouncementsPage announcementsPage = new AnnouncementsPage();
 
-    final static Logger logger = Logger.getLogger(AnnouncementsSteps.class);
+    final static Logger logger = Logger.getLogger(AnnouncementsTest.class);
 
     @Then("user navigates to announcements tab")
     public void user_navigates_to_announcements_tab() {

@@ -10,12 +10,12 @@ import utilities.Config;
 import utilities.Driver;
 import utilities.PasswordEncryptorDecryptor;
 
-public class LoginSteps {
+public class LoginTest {
 
     WebDriver driver = Driver.getDriver();
     LoginPage loginPage = new LoginPage();
 
-    final static Logger logger = Logger.getLogger(LoginSteps.class);
+    final static Logger logger = Logger.getLogger(LoginTest.class);
 
 
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import utilities.ApplicationFlow;
 import utilities.Driver;
 import java.util.List;
 
-public class TeachersSteps {
+public class TeachersTest {
 
     WebDriver driver = Driver.getDriver();
     HomePage homePage = new HomePage();

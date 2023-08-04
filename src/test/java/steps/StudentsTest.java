@@ -6,7 +6,7 @@ import pages.HomePage;
 import pages.StudentsPage;
 import utilities.Driver;
 
-public class StudentsSteps {
+public class StudentsTest {
 
     WebDriver driver = Driver.getDriver();
     HomePage homePage = new HomePage();
